@@ -30,7 +30,7 @@ body {
 /* Header Styles */
 .header-background {
     background: linear-gradient(rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.9)), 
-                url("https://imgur.com/gallery/17-main-conference-room-table-kZItTrc.jpg") center center fixed;
+                url("https://imgur.com/XCgZt9f.jpg") center center fixed;
     background-size: cover;
     height: var(--header-height);
     display: flex;
