@@ -223,7 +223,7 @@ h2 {
 }
 
 nav ul li a.download-cv {
-    background: var(--primary-color);
+    background: #007BFF; /* Blue background */
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1rem;
@@ -232,8 +232,9 @@ nav ul li a.download-cv {
     text-transform: uppercase;
     font-family: 'Unica One', cursive;
     transition: background 0.3s ease-in-out;
+    display: inline-block;
 }
 
 nav ul li a.download-cv:hover {
-    background: #ffbc4b; /* Accent color on hover */
+    background: #0056b3; /* Darker blue when hovered */
 }
