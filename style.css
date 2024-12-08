@@ -275,7 +275,7 @@ nav ul li a.download-cv:hover {
 }
 
 #skills {
-    background-color: var(--background-dark); /* Dark background */
+    background-color: var(--background-dark);
     padding: 40px 20px;
     margin: 20px auto;
     max-width: 800px;
@@ -286,7 +286,7 @@ nav ul li a.download-cv:hover {
 
 #skills h2 {
     font-size: 2.5rem;
-    color: var(--primary-color);
+    color: white;
     font-family: 'Unica One', cursive;
     margin-bottom: 30px;
 }
@@ -294,16 +294,17 @@ nav ul li a.download-cv:hover {
 .skill-category {
     margin-bottom: 25px;
     padding-bottom: 20px;
+    border-top: 2px solid var(--primary-color);
     border-bottom: 2px solid var(--primary-color); /* Line after each skill category */
 }
 
 .skill-category h3 {
     font-size: 1.5rem;
-    color: var(--primary-color);
+    color: white;
     margin-bottom: 10px;
 }
 
 .skill-category p {
     font-size: 1.2rem;
-    color: var(--secondary-color);
+    color: white;
 }
