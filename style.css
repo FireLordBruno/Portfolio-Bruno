@@ -338,5 +338,5 @@ nav ul li a.download-cv:hover {
 }
 
 .project-description:hover {
-    color: var(--accent-color); /* Slight color change on hover */
+    color: white; /* Slight color change on hover */
 }
