@@ -309,3 +309,11 @@ nav ul li a.download-cv:hover {
     font-size: 1.2rem;
     color: white;
 }
+#skills .skills-additional {
+    color: #ffffff; /* White text color */
+    font-size: 1.1rem; /* Slightly larger than normal text */
+    line-height: 1.6;
+    margin-top: 20px;
+    font-weight: normal;
+    text-align: center; /* Center the additional text */
+}
