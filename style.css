@@ -330,7 +330,7 @@ nav ul li a.download-cv:hover {
     text-align: center;
     background: #f8f8f8;
     transition: transform 0.3s, background 0.3s;
-    padding-bottom: 20px; /* Space for the description */
+    padding-bottom: 10px; /* Space for the description */
 }
 
 .project:hover {
@@ -345,7 +345,7 @@ nav ul li a.download-cv:hover {
 
 .project-description {
     font-size: 0.9rem;
-    color: var(--secondary-color);
+    color: white;
     text-align: center;
     margin-top: 10px;
 }
