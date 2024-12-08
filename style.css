@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #1e7b6f;
-    --secondary-color: #e0e0e0;
-    --background-light: #1a1a1a;
+    --primary-color: #29a598;
+    --secondary-color: #394c4a;
+    --background-light: #ffffff;
     --header-height: 100vh;
     --accent-color: #ffbc4b;
 }
@@ -29,8 +29,8 @@ body {
 
 /* Header Styles */
 .header-background {
-    background: linear-gradient(rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.9)), 
-                url("https://imgur.com/XCgZt9f.jpg") center center fixed;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), 
+                url("https://i.imgur.com/TAn6FWz.jpg") center center fixed;
     background-size: cover;
     height: var(--header-height);
     display: flex;
@@ -43,12 +43,11 @@ body {
 
 nav {
     width: 100%;
-    position: fixed; 
+    position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.6);
     padding: 15px 0;
-    z-index: 1000;
 }
 
 nav ul {
@@ -61,7 +60,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: var(--secondary-color);
+    color: white;
     text-decoration: none;
     font-size: 1rem;
     font-family: 'Unica One', cursive;
@@ -89,6 +88,42 @@ nav ul li a:hover {
     margin: 5px 0 0;
 }
 
+/* Link Styles (GitHub, LinkedIn, Email, Phone) */
+.github-link,
+.linkedin-link,
+.email-link,
+.phone-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid var(--primary-color);
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 10px; /* Space between buttons */
+}
+
+.github-link:hover,
+.linkedin-link:hover,
+.email-link:hover,
+.phone-link:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.phone-link {
+    color: #4CAF50; /* Green for phone */
+    border: 2px solid #4CAF50;
+}
+
+.phone-link:hover {
+    background: #4CAF50;
+    color: white;
+}
+
 /* Section Styles */
 section {
     padding: 40px 20px;
@@ -97,7 +132,7 @@ section {
     text-align: center;
     background: var(--background-light);
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -119,7 +154,7 @@ h2 {
     font-size: 1rem;
     color: var(--primary-color);
     text-align: center;
-    background: #252525;
+    background: #f8f8f8;
     transition: transform 0.3s, background 0.3s;
 }
 
