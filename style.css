@@ -24,7 +24,7 @@ body {
     font-family: 'Work Sans', Helvetica, sans-serif;
     color: white; /* Set all text to white */
     line-height: 1.6;
-    background-color: var(--background-light); /* Original light background */
+    background-color: var(--background-dark); /* Entire page dark background */
     overflow-x: hidden;
 }
 
@@ -140,7 +140,7 @@ section {
     margin: 20px auto;
     max-width: 800px;
     text-align: center;
-    background: var(--background-dark); /* Default dark section background */
+    background: var(--background-dark); /* Dark background for sections */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -240,7 +240,7 @@ nav ul li a.download-cv:hover {
 }
 
 #education {
-    background-color: var(--background-light);
+    background-color: var(--background-dark); /* Dark background for education section */
     padding: 40px 20px;
     margin: 20px auto;
     max-width: 800px;
