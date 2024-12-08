@@ -238,3 +238,33 @@ nav ul li a.download-cv {
 nav ul li a.download-cv:hover {
     background: #0056b3; /* Darker blue when hovered */
 }
+#education {
+    background-color: var(--background-light);
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.diploma {
+    margin-bottom: 30px;
+}
+
+.diploma-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.school {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.status {
+    font-style: italic;
+    color: #888;
+}
