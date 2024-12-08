@@ -251,6 +251,8 @@ nav ul li a.download-cv:hover {
 
 .diploma {
     margin-bottom: 30px;
+    padding-bottom: 20px; /* Adds spacing below each diploma */
+    border-bottom: 2px solid var(--primary-color); /* Line after each diploma */
 }
 
 .diploma-name {
