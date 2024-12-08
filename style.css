@@ -317,3 +317,35 @@ nav ul li a.download-cv:hover {
     font-weight: normal;
     text-align: center; /* Center the additional text */
 }
+.project {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin: 15px;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    line-height: 180px;
+    font-size: 1rem;
+    color: var(--primary-color);
+    text-align: center;
+    background: #f8f8f8;
+    transition: transform 0.3s, background 0.3s;
+    padding-bottom: 20px; /* Space for the description */
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    background: var(--primary-color);
+    color: white;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+.project-description {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: 10px;
+}
