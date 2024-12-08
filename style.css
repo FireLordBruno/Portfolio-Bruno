@@ -22,7 +22,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', Helvetica, sans-serif;
-    color: white; /* Set all text to white */
+    color: var(--secondary-color);
     line-height: 1.6;
     background-color: var(--background-dark); /* Default dark background */
     overflow-x: hidden;
@@ -238,7 +238,6 @@ nav ul li a.download-cv {
 nav ul li a.download-cv:hover {
     background: #0056b3; /* Darker blue when hovered */
 }
-
 #education {
     background-color: var(--background-light);
     padding: 40px 20px;
