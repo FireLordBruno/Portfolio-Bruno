@@ -221,3 +221,19 @@ h2 {
         grid-template-columns: 1fr; /* Stacks the links in a single column on smaller screens */
     }
 }
+
+nav ul li a.download-cv {
+    background: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Unica One', cursive;
+    transition: background 0.3s ease-in-out;
+}
+
+nav ul li a.download-cv:hover {
+    background: #ffbc4b; /* Accent color on hover */
+}
