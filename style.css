@@ -257,19 +257,19 @@ nav ul li a.download-cv:hover {
 }
 
 .diploma-name {
-    font-size: 1rem; 
+    font-size: 1.5rem; 
     font-weight: bold;
     color: white;
     margin-bottom: 10px;
 }
 
 .school {
-    font-size: 1rem; /* Smaller font size for school name */
+    font-size: 1.2rem; /* Smaller font size for school name */
     color: white;
 }
 
 .status {
-    font-size: 0.9rem; /* Even smaller font size for the status */
+    font-size: 1.2rem; /* Even smaller font size for the status */
     font-style: italic;
     color: white;
 }
