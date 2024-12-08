@@ -285,10 +285,11 @@ nav ul li a.download-cv:hover {
 }
 
 #skills h2 {
-    font-size: 2.5rem;
-    color: white;
-    font-family: 'Unica One', cursive;
+    font-size: 2.5rem; /* Same size as About Me title */
+    color: var(--primary-color); /* Same color as About Me title */
+    font-family: 'Unica One', cursive; /* Same font family as About Me title */
     margin-bottom: 30px;
+    text-transform: uppercase; /* Same text styling */
 }
 
 .skill-category {
