@@ -22,10 +22,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', Helvetica, sans-serif;
-    color: white; /* Set all text to white */
+    color: #333; 
     line-height: 1.6;
-    background-color: var(--background-dark); /* Entire page dark background */
+    background-color: #FFDAB9;
     overflow-x: hidden;
+    
 }
 
 /* Header Styles */
@@ -41,6 +42,7 @@ body {
     text-align: center;
     color: var(--background-light);
     position: relative;
+    background-color: #FFE5B4;
 }
 
 nav {
